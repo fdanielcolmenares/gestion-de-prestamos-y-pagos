@@ -1,0 +1,221 @@
+<DOCTYPE html>
+  <html lang="es">
+    <head>
+      <Meta  charset= "utf-8">
+      <title>ASOHORJAUREGUI</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap-resposive.css">
+      <link rel="stylesheet" href="css/estilo.css">
+   </head>
+   <body>
+    <!--BARRA-->
+     <div class="container">
+       <legend>Sistema ASOHORJAUREGUI</legend>
+        <div class="navbar">
+         <div class="navbar-inner">
+           <div class="container">
+             <a href="#"class="btn btn-navbar" data-toggle="collapse" data target=".nav-collapse">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             </a>
+             <div class="nav-collapse">
+               <ul class ="nav">
+                  <li><a href="file:///C:/Users/julio/Desktop/transportistas/crearusuario.html">Usuarios</a></li>
+                   <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Personas</a>
+                   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                   <li><a href="file:///C:/Users/julio/Desktop/transportistas/personas.html">Nuevo registro</a></li>
+                   <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarpers.html">Consultar</a></li>
+                   </ul>
+                   </li>
+             <!--<li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Créditos</a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+               <li><a href="file:///C:/Users/julio/Desktop/transportistas/credito.html">Nuevo crédito</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultacredito.html">Consultar crédito</a></li>
+               </ul>
+             </li>
+             <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Seguros</a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+               <li><a href="file:///C:/Users/julio/Desktop/transportistas/seguros.html">Asegurar carga</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarseguro.html">Consultar carga</a></li>
+               </ul>
+             </li>
+             <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Guias</a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+               <li><a href="file:///C:/Users/julio/Desktop/transportistas/guias.html">Nueva guía</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarguia.html">Consultar guía</a></li>
+               </ul>-->
+              <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administración</i></a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                 <li><a href="file:///C:/Users/julio/Desktop/transportistas/administracioncaja.html">Caja</a></li>
+               </ul>
+             </li>
+             <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos</i></a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+               <li><a href="file:///C:/Users/julio/Desktop/transportistas/productos.html">Cargar productos</a></li>
+                
+               </ul>
+             </li>
+              <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Consultar</a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/aporte.html">Aportes</a></li>
+               <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultacredito.html">Créditos</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarguia.html">Guías</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarseguro.html">Seguros</a></li>
+
+               </ul>
+             </li>
+             <li><a href="file:///C:/Users/julio/Desktop/transportistas/usuarios.html">Cerrar sesión</a></li>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CONTENEDOR-->
+     <div class="container">
+         <div class="row-fluid">
+              <div class="hero-unit">
+
+                <legend class="text-center">Cargar Productos</legend>
+
+                <p>
+  <label class="control-label"><strong>Codigo de transación : </strong> 76543 </label>
+</p>
+<br>
+
+
+                <form class="form-horizontal">
+<fieldset>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="productos_codigoproducto">Código de producto:</label>
+  <div class="controls">
+    <input id="productos_codigoproducto" name="productos_codigoproducto" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="productos_nombre">Nombre del producto:</label>
+  <div class="controls">
+    <input id="productos_nombre" name="productos_nombre" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="productos_descripcion">Descripcion :</label>
+  <div class="controls">
+    <input id="productos_descripcion" name="productos_descripcion" type="text" placeholder="" class="span4"required="">
+    
+  </div>
+</div>
+
+<div class="control-group">
+  <label class="control-label" for="administracion_concepto">Operacion:</label>
+  <div class="controls">
+    <select id="administracion_concepto" name="administracion_concepto" class="input-xlarge">
+      <option>Ventas</option>
+      <option>Compras</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="productos_preciocompra">Precio de compra :</label>
+  <div class="controls">
+    <input id="productos_preciocompra" name="productos_preciocompra" type="text" placeholder="" class="span4"required="">
+    
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="productos_precioventa">Precio de venta :</label>
+  <div class="controls">
+    <input id="productos_precioventa" name="productos_precioventa" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="productos_cantidad">Cantidad :</label>
+  <div class="controls">
+    <input id="productos_cantidad" name="productos_cantidad" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="control-group">
+  <label class="control-label" for="productos_guardarproductos"></label>
+  <div class="controls">
+    <button id="productos_guardarproductos" name="productos_guardarproductos" class="btn btn-success">Guardar</button>
+    <button id="productos_cancelar" name="productos_cancelar" class="btn btn-danger">Cancelar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+<legend class="text-center">Inventario</legend>
+
+
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Producto</th>
+      <th>Descripcion</th>
+      <th>Precio compra</th>
+      <th>Precio venta</th>
+      <th>Cantidad</th>
+        </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>.</td>
+      <td>.</td>
+      <td>.</td>
+      <td>.</td>
+      <td>.</td>
+      <td>.</td>
+    </tr>
+     </tbody>
+     <tbody>
+    <tr>
+      <td>.</td>
+      <td>.</td>
+      <td>.</td>
+      <td>.</td>
+      <td>.</td>
+      <td>.</td>
+      </tr>
+     </tbody>
+</table>
+
+   
+
+</div>
+  </div>
+    </div>
+       <script src="js/jquery.js"></script>  
+       <script src="js/bootstrap.js"></script>
+      </Body>
+</html>

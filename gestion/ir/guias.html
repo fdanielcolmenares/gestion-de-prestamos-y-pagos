@@ -1,0 +1,189 @@
+<DOCTYPE html>
+  <html lang="es">
+    <head>
+      <Meta  charset= "utf-8">
+      <title>ASOHORJAUREGUI</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap-resposive.css">
+      <link rel="stylesheet" href="css/estilo.css">
+   </head>
+   <body>
+    <!--BARRA-->
+     <div class="container">
+       <legend>Sistema ASOHORJAUREGUI</legend>
+        <div class="navbar">
+         <div class="navbar-inner">
+           <div class="container">
+             <a href="#"class="btn btn-navbar" data-toggle="collapse" data target=".nav-collapse">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             </a>
+             <div class="nav-collapse">
+               <ul class ="nav">
+                  <li><a href="file:///C:/Users/julio/Desktop/transportistas/crearusuario.html">Usuarios</a></li>
+                   <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Personas</a>
+                   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                   <li><a href="file:///C:/Users/julio/Desktop/transportistas/personas.html">Nuevo registro</a></li>
+                   <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarpers.html">Consultar</a></li>
+                   </ul>
+                   </li>
+             <!--<li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Créditos</a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+               <li><a href="file:///C:/Users/julio/Desktop/transportistas/credito.html">Nuevo crédito</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultacredito.html">Consultar crédito</a></li>
+               </ul>
+             </li>
+             <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Seguros</a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+               <li><a href="file:///C:/Users/julio/Desktop/transportistas/seguros.html">Asegurar carga</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarseguro.html">Consultar carga</a></li>
+               </ul>
+             </li>
+             <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Guias</a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+               <li><a href="file:///C:/Users/julio/Desktop/transportistas/guias.html">Nueva guía</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarguia.html">Consultar guía</a></li>
+               </ul>-->
+              <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administración</i></a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                 <li><a href="file:///C:/Users/julio/Desktop/transportistas/administracioncaja.html">Caja</a></li>
+                  <li><a href="file:///C:/Users/julio/Desktop/transportistas/aporte.html">Aportes</a></li>
+                  <li><a href="file:///C:/Users/julio/Desktop/transportistas/guias.html">Guias</a></li>
+               </ul>
+             </li>
+             <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos</i></a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+               <li><a href="">Movimientos</a></li>
+                <li><a href="">Inventario</a></li>
+               </ul>
+             </li>
+              <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Consultar</a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/aporte.html">Aportes</a></li>
+               <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultacredito.html">Créditos</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarguia.html">Guías</a></li>
+                <li><a href="file:///C:/Users/julio/Desktop/transportistas/consultarseguro.html">Seguros</a></li>
+
+               </ul>
+             </li>
+             <li><a href="file:///C:/Users/julio/Desktop/transportistas/usuarios.html">Cerrar sesión</a></li>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CONTENEDOR-->
+     <div class="container">
+         <div class="row-fluid">
+              <div class="hero-unit">
+                <legend class="text-center">Guías</legend>
+                 <p>
+            <label class="control-label"><strong>Código de transación : </strong> 00003 </label></p>
+            <br>
+    <form class="form-horizontal">
+<fieldset>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="guias_codigoguia">Codigo de guía:</label>
+  <div class="controls">
+    <input id="guias_codigoguia" name="guias_codigoguia" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="guias_kiloscarga">Kilogramos de carga:</label>
+  <div class="controls">
+    <input id="guias_kiloscarga" name="guias_kiloscarga" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="guias_montocarga">Monto de la carga:</label>
+  <div class="controls">
+    <input id="guias_montocarga" name="guias_montocarga" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="guias_salida">Origen de la carga:</label>
+  <div class="controls">
+    <input id="guias_salida" name="guias_salida" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="guias_destino">Destino de la carga:</label>
+  <div class="controls">
+    <input id="guias_destino" name="guias_destino" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="guias_placa">Placa del vehiculo:</label>
+  <div class="controls">
+    <input id="guias_placa" name="guias_placa" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="guias_modelo">Modelo del vehiculo:</label>
+  <div class="controls">
+    <input id="guias_modelo" name="guias_modelo" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="guias_marca">Marca del vehiculo:</label>
+  <div class="controls">
+    <input id="guias_marca" name="guias_marca" type="text" placeholder="" class="span4" required="">
+    
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="control-group">
+  <label class="control-label" for="guias_bottonguardar"></label>
+  <div class="controls">
+    <button id="guias_bottonguardar" name="guias_bottonguardar" class="btn btn-success">Guardar</button>
+    <button id="guias_bottoncancelar" name="guias_bottoncancelar" class="btn btn-danger">Cancelar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+</div>
+  </div>
+    </div>
+       <script src="js/jquery.js"></script>  
+       <script src="js/bootstrap.js"></script>
+      </Body>
+</html>

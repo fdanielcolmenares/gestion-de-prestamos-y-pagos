@@ -1,0 +1,66 @@
+Sistema para Asocciasion De Transportistas del Jauregui
+
+Monto		 9529	Sistema	
+		 2023	Servidor
+		------
+		11.552
+cancelan 30%	xxx
+Restan 70%	xxx
+
+
+
+
+El Sistema Consta de 05 Modolos dedicados a los Ingresos y 01 a Egresos
+
+
+1) Mensualidades-->Aportes (obligatorio) (Entra dinero)
+Contiene datos detallados de los socios (Hoja de vida) - Fecha de ingreso a la asocicion 
+
+Los montos del aporte mensual dependen de si reportan seguro de carga o no
+
+No asegura paga: 150
+Asegurados paga: 80
+
+
+2) Prestamos-->Créditos
+(intereses, abonos, giros, garantias) (fiador, fechas) MOROSIDAD
+Los intereses del credito son Mensuales a tasas de:
+Socio:    3%
+Afiliado: 3%
+
+3) Seguros (Numeros de control y montos de carga)
+Paga sobre monto de carga 
+Ingresa dinero por concepto de reportes de carga (Asociacion)
+
+Resultados semanal, mensual, anual.
+Se deben mostrar por persona y total general
+
+4) Inventario de Stock unicamente (Asociacion) los ingresos son para la asocicion
+
+5) Control de Ingresos (Efectivo y Pagos de facturas) (cuanto y por que concepto ingreso) a donde va el dinero
+
+6) Guias 
+-Control de guias otorgadas
+-Salida 
+-Destino
+Nombre
+Productos
+Vehiculo - capacidad
+Costo de guia
+
+
+EGRESOS
+Registros Para Gastos (varios bancos por separado) numero de cheque y factura que corresponde al cheque
+
+Gastos (Sueldo a empleados)
+Compras
+
+
+
+
+Informes 
+
+Estados de Cuenta bancarios
+
+Se debe incluir una Nota de credito y debito bancarios (Observaciones con numero de referencia) para el saldo real comparado con el banco... Sincera
+los estados de cuenta.

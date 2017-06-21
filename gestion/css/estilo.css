@@ -1,0 +1,13 @@
+/*body{
+	padding-top: 70px;
+	padding-bottom: 40px
+	}*/
+	.blanco{
+		color: white;
+	}
+	@media print {
+ .print{
+ 	display: none;
+
+ }
+}
